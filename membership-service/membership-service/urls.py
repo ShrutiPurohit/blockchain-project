@@ -20,7 +20,7 @@ from django.conf.urls import url, include
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^', include('accounts.urls')),
+    url(r'^', include('membership-service-api.urls')),
     url(r'^login/$', auth_views.login),
     url(r'^logout/$', auth_views.logout),
 ]
