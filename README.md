@@ -1,4 +1,4 @@
-# blockchain-project
+# A private permissioned blockchain for handling transactions
 
 The blockchain we aimed to build is a private permissioned blockchain having the following main elements:
 1. Consensus service
